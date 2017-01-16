@@ -1,0 +1,23 @@
+<view>
+    <view class="info">
+        <image src="{{detailData.cover}}" bindtap="showImg" data-imgDetail="{{detailData.cover}}"></image>
+        <view class="textInfo">
+            <view class="magazineName">{{detailData.name}}</view>
+            <view class="magazineAddress">{{detailData.location}}</view>
+            <view class="magazineNickname">{{detailData.ename}}</view>
+            <view class="magazineNum">
+                <text>阅读数:{{detailData.count}}</text>
+            </view>
+        </view>
+    </view>
+    <view class ="weblink">
+        <view class="txt">复制链接在浏览器中打开</view>
+        <view>
+            <input value="{{detailData.waplink+'?fr=xcx'}}"/>
+        </view>
+    </view>
+    <view class="des">
+        <view class="title">简介</view>
+        <view class="content">{{detailData.desc}}</view>
+    </view>
+</view>

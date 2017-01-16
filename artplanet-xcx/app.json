@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/homepage/homepage",
+    "pages/magazineDetail/magazineDetail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "antplanet艺术星球",
+    "navigationBarTextStyle":"black"
+  }
+}

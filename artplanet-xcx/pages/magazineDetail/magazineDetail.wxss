@@ -1,0 +1,60 @@
+/* pages/magazineDetail/magazineDetail.wxss */
+.info {
+    display: flex;
+    margin-bottom: 29px;
+}
+.info .textInfo,
+.info image {
+    flex: 1;
+}
+.info image {
+    width: 100%;
+    height: 468rpx;
+}
+.info .textInfo {
+    padding-left: 12px;
+    padding-top: 7px;
+    position: relative;
+}
+.info .textInfo .magazineName {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+.info .textInfo .magazineAddress,
+.info .textInfo .magazineNickname {
+    color: #d2d2d2;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.info .textInfo .magazineNum {
+    position: absolute;
+    bottom: 0;
+    color: #d2d2d2;
+
+}
+.info .textInfo .magazineNum text {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+
+.weblink {
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+.weblink .txt {
+    margin-bottom: 12px;
+}
+.weblink input {
+    color:#f81f15;
+}
+
+
+.des .title {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.des .content {
+    font-size: 16px;
+    line-height: 20px;
+}
