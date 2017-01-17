@@ -1,0 +1,11 @@
+<view class="film"> 
+    <view class="video-item" wx:for="{{videos}}">
+        <view class="videoWrap">
+            <image src="{{item.cover}}" bindtap="playVideo" id="{{index}}" class="{{showImg==index?'hideImg':'showImg'}}"></image>
+            <video src="{{item.url}}" id="{{index}}" class="{{showImg==index?'showImg':'hideImg'}}"></video>
+        </view>
+        <view class="videoName">{{item.title}}</view>
+        <view class="videoAddress">{{item.lct}}</view>
+        <view class="videoIntro">{{item.description}}</view>
+    </view>
+</view>

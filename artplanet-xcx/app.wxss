@@ -14,4 +14,14 @@ page {
   width: auto;
 
 }
-
+.showImg {
+    display: block;
+    
+}
+.hideImg {
+    display: none;
+}
+.logo {
+  width: 100%;
+  height:76rpx;
+}

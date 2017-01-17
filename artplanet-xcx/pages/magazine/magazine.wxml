@@ -1,0 +1,22 @@
+<view class="wrap">
+    <view class="magazine">
+        <swiper class="banner" indicator-dots="{{indicatorDots}}" circular="true">
+            <swiper-item bindtap="openNm">
+                <image src="{{nmBook.bigimg}}"></image>
+            </swiper-item>
+            <swiper-item wx:for="{{hmBook}}" id="{{index}}" bindtap="openHm">
+                <image src="{{item.bigimg}}"></image>
+            </swiper-item>   
+        </swiper>
+        <view class="bookrack">
+            <view class="book" bindtap="magazineDetail" wx:for="{{books}}" id="{{index}}">
+                <image src="{{item.cover}}"></image>
+                <view class="bookName">{{item.name}}</view>
+                <view class="bookAddress">{{item.location}}</view>
+                <view class="bookRead">
+                    <view>阅读量：{{item.count}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

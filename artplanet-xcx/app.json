@@ -1,12 +1,33 @@
 {
   "pages":[
-    "pages/homepage/homepage",
-    "pages/magazineDetail/magazineDetail"
+    "pages/magazine/magazine",
+    "pages/magazineDetail/magazineDetail",
+    "pages/video/video"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "antplanet艺术星球",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#000",
+    "selectedColor":"#000",
+    "backgroundColor":"#eee",
+    "position":"bottom",
+    "list":[
+      {
+        "pagePath":"pages/magazine/magazine",
+        "text":"星球杂志",
+        "iconPath":"image/b1.png",
+        "selectedIconPath":"image/b2.png"
+      },
+      {
+        "pagePath":"pages/video/video",
+        "text":"星球光影",
+        "iconPath":"image/v1.png",
+        "selectedIconPath":"image/v2.png"
+      }
+    ]
   }
 }
